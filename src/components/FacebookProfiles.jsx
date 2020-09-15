@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import profiles from '../data/berlin.json'
 
 class FaceBook extends Component {
-  // This is the advanced part
+  
   constructor(props) {
     super(props)
    
