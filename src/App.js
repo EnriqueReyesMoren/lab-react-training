@@ -91,9 +91,9 @@ class App extends Component {
               <NumbersTable limit={28} />
                
 
-              {/* <h1>Facebook profiles</h1>
+              <h1>Facebook profiles</h1>
               <FacebookProfiles/>
- */}
+ 
               
 
 
