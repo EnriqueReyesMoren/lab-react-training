@@ -6,8 +6,12 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import logo from './logo.svg';
 import './App.css';
-
-
+import Dice from './components/Dice';
+import LikeButton from './components/LikeButton';
+import NumbersTable from './components/numbersTable';
+import FacebookProfiles from './components/FacebookProfiles';
+/* import profiles from '../data/berlin.json';
+ */
 class App extends Component {
     render() {
         return ( 
@@ -71,7 +75,31 @@ class App extends Component {
              bgColor="#ddbb55"
              color="white" />  
 
+
+<center>
+              <h1>Like Button</h1>
+              <LikeButton/>
+              <br></br>
+              <LikeButton/>
+              </center>
+
+
+             <h1>Dice</h1>
+              <Dice/> 
+
+              <h1>NumbersTable</h1>
+              <NumbersTable limit={28} />
+               
+
+              {/* <h1>Facebook profiles</h1>
+              <FacebookProfiles/>
+ */}
+              
+
+
         </div>
+
+        
 
 
 
